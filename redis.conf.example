@@ -1,0 +1,2 @@
+requirepass StrongRedisPassword
+#aclfile /etc/redis/users.acl

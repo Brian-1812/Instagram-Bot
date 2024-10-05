@@ -1,0 +1,11 @@
+{
+  "script": "dist/main.js",
+  "watch": true,
+  "ignore_watch": ["dist/uploads", "error.log", "combined.log", "node_modules"],
+  "watch_options": {
+    "followSymlinks": false
+  },
+  "name": "instabot",
+  "max_memory_restart": "200M",
+  "exp_backoff_restart_delay": 1000
+}
